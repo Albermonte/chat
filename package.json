@@ -4,8 +4,12 @@
   "description": "SimpleChat",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "start": "pm2 start chatServer.js"
+  },
   "dependencies": {
     "express": "~3.3.8",
+    "pm2": "^5.2.2",
     "redis": "",
     "socket.io": "~1.3.7",
     "socket.io-redis": "~0.1.4",
